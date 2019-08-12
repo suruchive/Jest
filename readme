@@ -1,1 +1,54 @@
 Hi this is to understand GIT
+
+create new filr readme
+
+git add readme
+
+git commit -m "initial commit"
+
+git push -u origin master
+
+git init
+Reinitialized existing Git repository in C:/Tech/ReactJS/test-driven-fizzbuzz/.git/
+
+C:\Tech\ReactJS\test-driven-fizzbuzz>git add .
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+C:\Tech\ReactJS\test-driven-fizzbuzz>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   src/index.js
+        new file:   tests/greeting.test.js
+        new file:   tests/index.test.js
+
+
+C:\Tech\ReactJS\test-driven-fizzbuzz>git commit -m "first commit for jest"
+[master 71cf3ef] first commit for jest
+ 6 files changed, 5004 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 src/index.js
+ create mode 100644 tests/greeting.test.js
+ create mode 100644 tests/index.test.js
+
+C:\Tech\ReactJS\test-driven-fizzbuzz>git push -u origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 42.70 KiB | 5.34 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/suruchive/Jest.git
+   e640ef4..71cf3ef  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
